@@ -16,17 +16,19 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 
 ## Tecnologías
 
-| Nombre                                                               | Detalles                                                                   |
-| -------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| 📦[Webpack](https://webpack.js.org/)                                 | Bundler para aplicaciones web                                              |
-| ⚛️[React](https://es.reactjs.org/)                                   | JavaScript Framework                                                       |
-| 🌐[Typescript](https://es.wikipedia.org/wiki/TypeScript) | Lenguaje de programación superconjunto de Javascript                                                 |
-| 👁️[Eslint](https://eslint.org/)                                      | Linter para controlar errores en nuestro código                            |
+| Nombre                                                   | Detalles                                             |
+| -------------------------------------------------------- | ---------------------------------------------------- |
+| 📦[Webpack](https://webpack.js.org/)                     | Bundler para aplicaciones web                        |
+| ⚛️[React](https://es.reactjs.org/)                       | JavaScript Framework                                 |
+| 🌐[Typescript](https://es.wikipedia.org/wiki/TypeScript) | Lenguaje de programación superconjunto de Javascript |
+| 👁️[Eslint](https://eslint.org/)                          | Linter para controlar errores en nuestro código      |
+| 🦋[Prettier](https://prettier.io/)                       | Formatea nuestro código                              |
 
 ## Scripts de npm
 
-| Comando     | Detalles                                                                   |
-| ----------- | -------------------------------------------------------------------------- |
-| `dev`       | Inicia server de desarrollo                                                |
-| `build`     | Genera nuestra web                                                         |
-| `lint`      | Comprueba/Corrige si hay errores en nuestro código Javascript              |
+| Comando  | Detalles                                                      |
+| -------- | ------------------------------------------------------------- |
+| `dev`    | Inicia server de desarrollo                                   |
+| `build`  | Genera nuestra web                                            |
+| `lint`   | Comprueba/Corrige si hay errores en nuestro código Javascript |
+| `format` | Comprueba/Formatea nuestro codigo                             |
