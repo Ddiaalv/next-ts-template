@@ -1,5 +1,5 @@
 {
-  "name": "with-typescript",
+  "name": "typescript-nextjs-template",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,7 +7,8 @@
     "start": "next start",
     "type-check": "tsc",
     "lint": "npx tsc --noEmit && eslint '*/**/*.{js,ts}' --quiet --fix",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "next": "latest",
@@ -28,8 +29,14 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.22.0",
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "prettier": "^2.2.1",
     "typescript": "4.0"
   },
-  "license": "MIT"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
 }
