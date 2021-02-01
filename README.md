@@ -26,6 +26,8 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | 🐺[Husky](https://www.npmjs.com/package/husky)           | Comprueba errores en nuestro código para evitar errores en nuestros commit |
 | 🚫[Lint-staged](https://github.com/okonet/lint-staged)   | Ejecuta los linters para evitar errores antes de hacer un commit           |
 | 💅[Emotion](https://emotion.sh/)                         | CSS in JS - Permite usar "Styled-Components"                               |
+| 🧪[Jest](https://jestjs.io/)                             | Framework de testing                                                       |
+| 🐐[Testing-library-react](https://testing-library.com/)  | Testing para nuestro UI                                                    |
 
 ## Scripts de npm
 
@@ -36,3 +38,4 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | `lint`      | Comprueba/Corrige si hay errores en nuestro código Javascript              |
 | `format`    | Comprueba/Formatea nuestro codigo                                          |
 | `precommit` | Comprueba si hay errores en los staged changes antes de realizar un commit |
+| `test`      | Ejecuta test                                                               |
