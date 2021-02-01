@@ -28,6 +28,7 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | 💅[Emotion](https://emotion.sh/)                         | CSS in JS - Permite usar "Styled-Components"                               |
 | 🧪[Jest](https://jestjs.io/)                             | Framework de testing                                                       |
 | 🐐[Testing-library-react](https://testing-library.com/)  | Testing para nuestro UI                                                    |
+| 🌲[Cypress](https://www.cypress.io/)                     | Testing end-to-end                                                         |
 
 ## Scripts de npm
 
@@ -39,3 +40,4 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | `format`    | Comprueba/Formatea nuestro codigo                                          |
 | `precommit` | Comprueba si hay errores en los staged changes antes de realizar un commit |
 | `test`      | Ejecuta test                                                               |
+| `test:e2e`  | Ejecuta tests end-to-end                                                   |
