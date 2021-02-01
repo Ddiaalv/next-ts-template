@@ -1,10 +1,9 @@
-import * as React from 'react'
-import ListItem from './ListItem'
 import { User } from '../interfaces'
+import ListItem from './ListItem'
 
 type Props = {
-  items: User[]
-}
+  items: User[];
+};
 
 const List = ({ items }: Props) => (
   <ul>
