@@ -1,7 +1,9 @@
 {
-  "name": "typescript-nextjs-template",
+  "name": "nextjs-typescript-template",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Next.js typescript template",
+  "author": "David Díaz Alvarez",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -14,6 +16,22 @@
     "test:e2e": "npx cypress run",
     "new:fc": "npx hygen new fc"
   },
+  "keywords": [
+    "react",
+    "webpack",
+    "next.js",
+    "javascript",
+    "typescript",
+    "eslint",
+    "prettier",
+    "emotion",
+    "jest",
+    "testing-library",
+    "cypress",
+    "husky",
+    "lint-staged",
+    "hygen"
+  ],
   "dependencies": {
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",

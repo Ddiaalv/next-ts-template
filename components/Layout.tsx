@@ -7,12 +7,17 @@ type Props = {
   title?: string
 }
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
+const Layout = ({
+  children,
+  title = 'Next.js + Typescript template',
+}: Props) => (
   <div>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
+      <meta name="description" content="Next boilerplate." />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <link rel="icon" href="/favicon.ico" />
     </Head>
     <header>
       <nav>
@@ -33,7 +38,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     {children}
     <footer>
       <hr />
-      <span>I'm here to stay (Footer)</span>
+      <span>I&apos;m here to stay (Footer)</span>
     </footer>
   </div>
 )
