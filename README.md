@@ -1,6 +1,6 @@
-# Typescript Next.js boilerplate
+# Typescript Next.js template
 
-Boilerplate creado a partir del proyecto de [Next.js](https://nextjs.org/) generado por medio de [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) donde se añaden nuevas configuraciones y dependencias.
+Template creado a partir del proyecto de [Next.js](https://nextjs.org/) generado por medio de [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) donde se utiliza Typescript y se añaden nuevas configuraciones y dependencias.
 
 ## Empezando...
 
@@ -20,6 +20,7 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | -------------------------------------------------------- | -------------------------------------------------------------------------- |
 | 📦[Webpack](https://webpack.js.org/)                     | Bundler para aplicaciones web                                              |
 | ⚛️[React](https://es.reactjs.org/)                       | JavaScript Framework                                                       |
+| ⏭️[Next](https://nextjs.org/)                            | React Framework                                                            |
 | 🌐[Typescript](https://es.wikipedia.org/wiki/TypeScript) | Lenguaje de programación superconjunto de Javascript                       |
 | 👁️[Eslint](https://eslint.org/)                          | Linter para controlar errores en nuestro código                            |
 | 🦋[Prettier](https://prettier.io/)                       | Formatea nuestro código                                                    |
@@ -29,6 +30,7 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | 🧪[Jest](https://jestjs.io/)                             | Framework de testing                                                       |
 | 🐐[Testing-library-react](https://testing-library.com/)  | Testing para nuestro UI                                                    |
 | 🌲[Cypress](https://www.cypress.io/)                     | Testing end-to-end                                                         |
+| 🧾[Hygen](https://www.hygen.io/)                         | Generador de código                                                        |
 
 ## Scripts de npm
 
@@ -41,3 +43,4 @@ Abre [http://localhost:3000](http://localhost:3000) con tu navegador para ver el
 | `precommit` | Comprueba si hay errores en los staged changes antes de realizar un commit |
 | `test`      | Ejecuta test                                                               |
 | `test:e2e`  | Ejecuta tests end-to-end                                                   |
+| `new:fc`    | Genera un componente funcional con Emotion y "Styled-Components"           |
