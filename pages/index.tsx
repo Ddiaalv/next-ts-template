@@ -1,14 +1,8 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Layout from '../components/Layout/Layout'
 
 const IndexPage = () => (
   <Layout title="Next.js + TypeScript template">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
+    <h1>Next.js + TypeScript template</h1>
   </Layout>
 )
 
