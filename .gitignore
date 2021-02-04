@@ -19,6 +19,10 @@
 .DS_Store
 *.pem
 .eslintcache
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
 
 # debug
 npm-debug.log*
