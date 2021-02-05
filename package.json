@@ -34,7 +34,8 @@
     "lint-staged",
     "hygen",
     "storybook",
-    "PWA"
+    "PWA",
+    "makefile"
   ],
   "dependencies": {
     "@emotion/react": "^11.1.4",
