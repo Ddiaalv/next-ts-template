@@ -1,4 +1,4 @@
-import { routesTypes } from '../interfaces/index'
+import { routesTypes } from './index'
 
 export const routes: routesTypes = {
   home: { name: 'Home', href: '/' },
