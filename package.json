@@ -13,7 +13,7 @@
     "format": "npx prettier --write .",
     "precommit": "lint-staged",
     "test": "jest",
-    "test:e2e": "npx cypress run",
+    "test:e2e": "node_modules/.bin/cypress open -p 5005",
     "new:fc": "npx hygen new fc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
