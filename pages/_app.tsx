@@ -1,7 +1,7 @@
 import { AppInitialProps } from 'next/app'
 import { ComponentType } from 'react'
 import { Provider } from 'react-redux'
-import { store } from '../components/store/store'
+import { store } from '../src/store/store'
 import './_app.css'
 
 const MyApp = ({

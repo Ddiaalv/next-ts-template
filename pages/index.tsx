@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
-import Layout from '../components/Layout/Layout'
+import Layout from '../src/components/Layout/Layout'
 
 const IndexPage = () => {
   const notes = useSelector((state) => state)

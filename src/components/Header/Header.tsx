@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { FC } from 'react'
 import { HeaderStyled, NavBar } from './Header.styles'
-import { routes } from '../../utils/routes'
+import { routes } from '../../../utils/routes/routes'
 
 export const Header: FC = () => (
   <HeaderStyled>
